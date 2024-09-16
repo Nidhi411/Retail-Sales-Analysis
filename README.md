@@ -68,6 +68,7 @@ WHERE
 ```
 ## 3. Data Analysis & Findings
 The following SQL queries were developed to answer specific business questions:
+<br>
  **Q.1 Write a SQL query to retrieve all columns for sales made on '2022-11-05.**
 ```sql
 SELECT *
@@ -108,7 +109,7 @@ WHERE category = 'Beauty';
 SELECT * FROM retail_sales
 WHERE total_sale > 1000;
 ```
-**Q.6 Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category.**
+**Q.6 Write a SQL query to find the total number of transactions made by each gender in each category.**
 ```sql
 SELECT 
     category,
@@ -175,7 +176,12 @@ SELECT
 FROM cte
 GROUP BY shift;
 ```
-
+## Findings
+**Customer Demographics:** The dataset includes customers from various age groups with sales distributed across different categories such as Clothing and Beauty.
+**Sales Trends:** Monthly analysis shows variations in sales, helping identify peak seasons.
+**Customer Insights:** The analysis identifies the top-spending customers and the most popular product categories.
+## Conclusion
+This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
 
 
 
